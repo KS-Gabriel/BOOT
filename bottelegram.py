@@ -1,4 +1,3 @@
-import data as data
 import telebot
 from datetime import datetime, date
 
@@ -186,7 +185,7 @@ def verificar(mensagem):
     return True
 
 
-@bot.message_handler(func=verificar)
+@bot.message_handler(commands=['help', 'start'])
 def responder(mensagem):
     texto = """
     Escolha Um Comando Abaixo:
