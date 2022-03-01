@@ -1,2 +1,2 @@
-# BOOT
+# BOT
  Telgram BOT
